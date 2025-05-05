@@ -7,7 +7,7 @@ import keyboards as kb
 from html_parser import html_to_telegram_text
 from nika_utils import get_nika_response
 
-bot = Bot(token='7725642650:AAHYT-_c2JUgAAMCTduGImqxK8qbRyYAZlc')
+bot = Bot(token='7563338823:AAGay5lXT0y6uzbrghDHkXLbhUjev4Txh-8')
 storage = MemoryStorage()
 dp = Dispatcher(storage=storage)
 
