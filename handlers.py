@@ -3,11 +3,10 @@ from aiogram import F
 from aiogram.filters import Command
 from aiogram.fsm.storage.memory import MemoryStorage
 
-import keyboards as kb
 from html_parser import html_to_telegram_text
 from nika_utils import get_nika_response
 
-bot = Bot(token='7563338823:AAGay5lXT0y6uzbrghDHkXLbhUjev4Txh-8')
+bot = Bot(token='7677551991:AAGD9C4IObgYMvKpTvG0_JNLpG48HUrF16s')
 storage = MemoryStorage()
 dp = Dispatcher(storage=storage)
 
@@ -24,8 +23,7 @@ async def start(message: types.Message):
     ㅤ\n
     '''
 
-    await message.answer(text, parse_mode='HTML',
-                         reply_markup=await kb.start_commands())
+    await message.answer(text, parse_mode='HTML',)
 
 
 # @dp.callback_query(F.data == 'Что умеет Ника?')

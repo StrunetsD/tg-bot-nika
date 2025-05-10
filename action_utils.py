@@ -15,10 +15,9 @@ from sc_kpm.utils.action_utils import (
     call_action,
     add_action_arguments,
     IsDynamic,
-    COMMON_WAIT_TIME
+    COMMON_WAIT_TIME,
+    Event
 )
-
-
 
 def execute_agent_tg_bot(
         arguments: Dict[ScAddr, IsDynamic],
